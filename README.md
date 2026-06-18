@@ -1,2 +1,1 @@
-Testing MyRepoBot 🚀
-Testing
+Testing Discord notification 🚀
