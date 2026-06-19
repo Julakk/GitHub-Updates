@@ -1,0 +1,36 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [v1.2.0] - 2026-06-20
+
+### Added
+- Multi-tab editor support
+- Open `.pwn` files
+- Save `.pwn` files
+- Custom filename support
+- Quick insert toolbar
+- Output panel
+- Line numbers
+- Modern dark theme
+
+### Improved
+- Mobile-friendly interface
+- Better editor responsiveness
+- Improved file management workflow
+
+### Fixed
+- Save file naming issues
+- Dark Theme Settings issues
+- Various UI bugs and stability problems
+
+### Known Issues
+- Some editor features are still being refined
+- Minor UI inconsistencies may occur on certain devices
+
+### Upcoming
+- Find & Replace
+- Line Wrap Toggle
+- Export Project (.zip)
+- Custom Keywords & Snippets
+- Enhanced Syntax Highlighting
