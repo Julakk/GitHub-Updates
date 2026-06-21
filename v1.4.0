@@ -1,0 +1,86 @@
+# ⚡ Pawn Studio v1.4.0
+
+## 🚀 VS Code Style UI Update
+
+Pawn Studio kini hadir dengan tampilan baru yang terinspirasi dari Visual Studio Code untuk memberikan pengalaman editing yang lebih nyaman di Android.
+
+## ✨ New Features
+
+### Activity Bar
+- Sidebar kiri dengan navigasi cepat
+- Akses Explorer dan Snippets lebih mudah
+
+### File Explorer Sidebar
+- File manager terintegrasi dalam sidebar
+- Dapat di-toggle kapan saja
+- Tidak lagi menutupi area editor
+
+### Command Palette
+- Cari dan jalankan perintah dengan cepat
+- Mendukung:
+  - Save File
+  - Find & Replace
+  - Compile
+  - Export ZIP
+  - Toggle Theme
+  - Dan lainnya
+
+### Status Bar
+- Menampilkan informasi real-time:
+  - Bahasa aktif
+  - Posisi kursor (Line & Column)
+  - Tema aktif
+
+### Snippet Manager
+- Kelola snippet langsung dari sidebar
+- Akses lebih cepat dan praktis
+
+---
+
+## 🔧 Improvements
+
+- Redesain total antarmuka editor
+- Topbar lebih ringkas dan modern
+- Sidebar dapat di-collapse
+- Layout lebih modular untuk pengembangan fitur berikutnya
+- Performa editor lebih stabil
+- Berbagai perbaikan bug dan optimasi
+
+---
+
+## ✅ Current Features
+
+- Syntax Highlighting Pawn / SA-MP
+- Auto Complete 150+ Keyword SA-MP
+- Custom Snippets
+- Internal Storage File Manager
+- Multi Theme Support
+  - Dracula
+  - Monokai
+  - Nord
+  - One Dark
+  - Solarized Dark
+- Find & Replace
+- Line Wrap Toggle
+- Export Project (.zip)
+- Command Palette
+- Status Bar
+
+---
+
+## 🚧 Coming Soon
+
+- Real Compiler via Server
+- Export ke `.amx` langsung dari aplikasi
+
+---
+
+## 📥 Download
+
+Download APK melalui bagian **Assets** di bawah halaman release ini.
+
+---
+
+Built with Capacitor + CodeMirror
+
+© 2026 Pawn Studio
