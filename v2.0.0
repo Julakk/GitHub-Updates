@@ -1,0 +1,9 @@
+➡️ **Changes were pushed to the branch by Julakk**
+
+Repository: pawn-studio
+Branch: refs/heads/main
+Last commits:
+
+Release v2.0.0 — Full VS Code Style Rebuild
+
+Versi ini adalah rebuild total dari nol. UI dirombak habis menjadi IDE mobile ala Visual Studio Code, lengkap dengan Menu Bar (File/Edit/View/Run/Terminal), Welcome Screen, Activity Bar, Sidebar Explorer, Settings Panel, Terminal Panel, Custom App Icon, Native Pawn Compiler (JNI multi-arch), Import/Export real storage Android, Recent Files, Command Palette, dan Status Bar lengkap.
