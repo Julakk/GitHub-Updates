@@ -1,0 +1,35 @@
+# ⚡ Pawn Studio — v2.1.0
+
+---
+
+## 🔧 Bug Fixes & Improvements
+
+**Native Compiler Fix**
+- Fix compiler version selector tidak terkirim ke native plugin
+- Debug level (-d0 sampai -d3) sekarang beneran dipakai saat compile
+- Custom flags (-w203 -w204 dll) sekarang diterusin ke pawncc
+- Output compile sekarang muncul di tab OUTPUT
+- Graceful fallback ke simulasi kalau native compiler gak tersedia di device
+
+**Crash Fix**
+- Fix app crash saat pertama dibuka (lazy load native .so library)
+- Error handling lebih robust kalau .so gagal load di arsitektur tertentu
+
+**Settings**
+- Perubahan settings (compiler version, debug level, custom flags) sekarang langsung berpengaruh ke proses compile berikutnya
+- Settings tersimpan otomatis dan persistent
+
+---
+
+## 📦 Download
+GitHub Actions → Artifacts → `PawnStudio.apk`
+https://github.com/Julakk/pawn-studio/actions
+
+---
+
+## 🔧 Coming Soon
+- [ ] Verifikasi native compiler output .amx di HP ARM
+- [ ] Include path manager (upload file .inc ke app)
+
+---
+*Built with Capacitor + CodeMirror • by Julakk*
