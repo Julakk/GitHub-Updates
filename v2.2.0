@@ -1,0 +1,19 @@
+# ⚡ Pawn Studio — v2.2.0
+
+### File Manager Improvements
+- **Added**: Rename file button (✎ icon) in file manager items
+- **Fixed**: File manager HTML structure with proper emoji icons (📄, ✎, ✗)
+- **Refactored**: Removed duplicate `renameFile()`, `uploadFile()`, and `uploadFolder()` functions
+  - Consolidated from 1150+ lines to 1035 lines
+  - Maintained full functionality with cleaner codebase
+  - Verified syntax with Node.js checker (0 errors)
+
+### File Manager Features (Complete)
+- ✅ Create new files
+- ✅ Open/import files from storage
+- ✅ Upload single or multiple files
+- ✅ Upload folders with webkitdirectory support
+- ✅ **NEW**: Rename files with modal dialog
+- ✅ Delete files with confirmation
+- ✅ Syntax highlighting via CodeMirror
+- ✅ File persistence via localStorage or Capacitor Filesystem
