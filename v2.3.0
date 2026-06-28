@@ -1,0 +1,29 @@
+📦 Pawn Studio — Update Log
+v2.3.0 — Theme System Overhaul & Code Cleanup
+
+✨ New Features
+
+🎨 Theme system sekarang fully dynamic — ganti theme di Settings, seluruh UI ikut berubah real-time
+🌈 Semua 5 tema (Dracula, Monokai, Nord, One Dark, Solarized Dark) sekarang punya color palette lengkap untuk setiap elemen UI
+
+🐛 Bug Fixes
+
+🔧 Fixed theme tidak keapply saat pertama kali app dibuka
+🖥️ Fixed warna terminal hardcoded — sekarang ikut variable --green sesuai tema aktif
+🔤 Fixed karakter mojibake (â€º, âœ", â†') yang muncul di breadcrumb, terminal output, dan rename dialog
+
+🛠️ Improvements
+
+⚙️ style.css direfactor — semua hardcode warna diganti CSS variable
+🎯 themes.js diupdate — tiap tema kini set semua variable: --bg, --menubar, --sidebar-bg, --panel-bg, --tab-bg, --tab-active, --border, --hover, --input-bg, --blue, dan lainnya
+🧹 Hapus debug click logger yang tidak sengaja ikut ke production
+📦 Code cleanup — duplikat CSS dan override yang berantakan dirapiin jadi satu deklarasi
+
+📁 Files Changed
+
+themes.js — full color palette per theme + applyTheme() set semua CSS variable
+style.css — refactor ke pure CSS variable system
+script.js — theme init on load, terminal color fix, mojibake fix, code cleanup
+
+
+Built with ❤️ from Julak Junior
